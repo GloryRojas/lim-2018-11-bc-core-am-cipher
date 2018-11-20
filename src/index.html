@@ -6,9 +6,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola Mundo</h1>
-    </div>
+    <div>
+     <h1>Codificando tus mensajes</h1>
+     <p>Bienvenido, "Codificando tus mensajes" es una página donde vas a cifrar y descifrar mensajes para tus conversaciones secretas.</p>
+   </div>
+   <div class="">
+     <p1>Ingresa tu mensaje</p1>
+       <input type="text" name="Message" value="Ingrese mensaje aqui" id="inpText">
+   </div>
+   <div class="">
+     <p1>Ingresa tu clave secreta</p1>
+     <input type="number" name="Offset" value="Clave en numeros" id="inpOffset">
+   </div>
+   <div class="">
+     <input type="button" name="Encode" value="Codificar" id="ButtonEncode">
+     <input type="button" name="Decode" value="Decodificar">
+   </div>
+
+     <p id="OutTextEncode"></p>
+   </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
