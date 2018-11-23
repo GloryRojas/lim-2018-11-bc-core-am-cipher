@@ -1,18 +1,18 @@
 window.cipher = {
-  encode : (string,Offset) => {
-      var string2 = string.toUpperCase()
+  encode : (inText,Offset) => {
+      var inText2 = inText.toUpperCase()
       var OutText = ''
-      for (var i = 0; i < string2.length; i++) {
-        AscciCode = ((string2.charCodeAt(i) - 65 + (Offset%26)) % 26 + 65)
+      for (var i = 0; i < inText2.length; i++) {
+        AscciCode = ((inText2.charCodeAt(i) - 65 + (Offset%26)) % 26 + 65)
         OutText += String.fromCharCode(AscciCode)
         }
       return OutText;
       } ,
- decode : (string,Offset) => {
-      var string2 = string.toUpperCase()
+ decode : (inText,Offset) => {
+      var inText2 = inText.toUpperCase()
       var OutText = ''
-      for (var i = 0; i < string2.length; i++) {
-        AscciCode = ((string2.charCodeAt(i) - 65 - (Offset%26)+26) % 26 + 65)
+      for (var i = 0; i < inText2.length; i++) {
+        AscciCode = ((inText2.charCodeAt(i) - 65 - (Offset%26)+26) % 26 + 65)
         OutText += String.fromCharCode(AscciCode)
         }
       return OutText;
