@@ -4,3 +4,6 @@ body {
   background-attachment: fixed;
   margin: 0;
 }
+p {
+  text-align: center;
+}
