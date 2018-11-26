@@ -1,9 +1,61 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+}
 body {
   background-image: url(img/Lago.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
-  margin: 0;
+  margin: 0 auto;
 }
-p {
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+header {
+    background-image: url(img/header.jpg) ;
+    background-attachment: fixed;
+    background-size: 100%
+    font-family: 'Muli', sans-serif;
+    align-content: center;
+    width: 100%;
+}
+
+header h1 {
+  color: #273746;
+  padding: 10px 0;
   text-align: center;
+  font-size: 40px;
+}
+
+header p {
+  text-align: center;
+  padding: 10px 0;
+}
+.main {
+    margin-bottom: 20px;
+    width: 90%;
+    padding:20px 10px;
+    background-color: rgba(255, 0, 0, 0.1);(,0.8);
+    float: inherit;
+    margin: auto;
+}
+.contenedor p1 {
+  text-align: center;
+  display: block;
+}
+#inpText, #inpOffset, #OutTextEncode {
+  width: 100%;
+  display: block;
+  align-self: center;
+  margin:auto;
+  box-sizing: border-box;
+}
+#ButtonEncode, #ButtonDecode {
+  display: inline-block;
+  margin:1em 1em 1em 1em;
+  align-self: auto;
 }

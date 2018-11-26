@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div>
-     <h1>Codificando tus mensajes</h1>
-     <p>Bienvenido, "Codificando tus mensajes" es una página donde vas a cifrar y descifrar mensajes para tus conversaciones secretas.</p>
-   </div>
-   <div class="">
-     <p1>Ingresa tu mensaje</p1>
-     <textarea rows="3" cols="30" id="inpText"></textarea>
-   </div>
-   <div class="">
-     <p1>Ingresa tu clave secreta</p1>
-     <input type="number" name="Offset" id="inpOffset">
-   </div>
-   <div class="">
-     <input type="button" name="Encode" value="CIFRAR" id="ButtonEncode">
-     <input type="button" name="Decode" value="DESCIFRAR" id="ButtonDecode">
-   </div>
-
-     <p id="OutTextEncode"></p>
-   </div>
+    <head>
+      <meta charset="utf-8">
+      <title>Caesar Cipher</title>
+      <link rel="stylesheet" href="style.css" />
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    </head>
+    <body>
+      <div class="contenedor">
+          <header>
+            <h1>RECETAS SECRETAS</h1>
+            <p>Bienvenid@. Ahora podras compartir tus recetas solo con quienes tu eligas.</p>
+          </header>
+          <section class="main">
+            <p1>Ingresa tu Receta Secreta</p1>
+            <textarea rows="3" cols="30" id="inpText"></textarea>
+            <p1>Coloca aquí tu clave</p1>
+            <input type="number" name="Offset" id="inpOffset">
+            <input type="button" name="Encode" value="CIFRAR RECETA" id="ButtonEncode">
+            <input type="button" name="Decode" value="DESCIFRAR RECETA" id="ButtonDecode">
+            <textarea name="name" rows="3" cols="30" id="OutTextEncode"></textarea>
+          </section>
+      </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
