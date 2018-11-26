@@ -2,26 +2,26 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Muli', sans-serif;
 }
 body {
-  background-image: url(img/Lago.jpg);
+  background-image: url(img/Recetas.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
   margin: 0 auto;
+  text-align: center;
 }
 .contenedor {
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
+  text-align: center;
 }
 header {
-    background-image: url(img/header.jpg) ;
+    background-color: rgba(238, 203, 103, 0.5);
     background-attachment: fixed;
-    background-size: 100%
-    font-family: 'Muli', sans-serif;
     align-content: center;
     width: 100%;
+    margin-top:10px ;
 }
 
 header h1 {
@@ -29,33 +29,44 @@ header h1 {
   padding: 10px 0;
   text-align: center;
   font-size: 40px;
+  box-sizing: border-box;
+  font-family: 'Cormorant Upright', serif;
+  text-emphasis-color: blue;
 }
 
 header p {
   text-align: center;
   padding: 10px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Aref Ruqaa', serif;
 }
 .main {
-    margin-bottom: 20px;
-    width: 90%;
-    padding:20px 10px;
-    background-color: rgba(255, 0, 0, 0.1);(,0.8);
-    float: inherit;
-    margin: auto;
+  margin-bottom: 50px;
+  width: 95%;
+  padding:20px 10px;
+  background-color: rgba(128, 116, 85, 0.3);
+  font-size: 20px;
 }
 .contenedor p1 {
-  text-align: center;
   display: block;
+  font-family: 'Acme';
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
-#inpText, #inpOffset, #OutTextEncode {
-  width: 100%;
+#inpText, #OutTextEncode {
+  width: 50%;
   display: block;
-  align-self: center;
   margin:auto;
-  box-sizing: border-box;
+  padding: 7px;
+}
+#inpOffset{
+  width: 30%;
+  display: block;
+  margin:auto;
+  padding: 7px;
 }
 #ButtonEncode, #ButtonDecode {
   display: inline-block;
   margin:1em 1em 1em 1em;
-  align-self: auto;
 }
