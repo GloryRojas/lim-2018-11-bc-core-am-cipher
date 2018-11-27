@@ -6,7 +6,7 @@ window.cipher = {
         if (inText2[i] === ' '){
           OutText += ' ';
         } else {
-          AscciCode = ((inText2.charCodeAt(i) - 65 + (Offset%26)) % 26 + 65);
+          let AscciCode = ((inText2.charCodeAt(i) - 65 + (Offset%26)) % 26 + 65);
           OutText += String.fromCharCode(AscciCode);
           }
       }
@@ -19,7 +19,7 @@ window.cipher = {
         if (inText2[i] === ' '){
           OutText += ' ';
         } else {
-          AscciCode = ((inText2.charCodeAt(i) - 65 - (Offset%26)+26) % 26 + 65);
+          let AscciCode = ((inText2.charCodeAt(i) - 65 - (Offset%26)+26) % 26 + 65);
           OutText += String.fromCharCode(AscciCode);
           }
       }
