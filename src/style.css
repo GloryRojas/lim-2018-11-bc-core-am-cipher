@@ -4,8 +4,8 @@
   padding: 0;
 }
 body {
-  background-image: url(img/Recetas.jpg);
-  background-size: 100vw 100vh;
+  background-image: url(img/Food.jpg);
+  background-size: cover;
   background-attachment: fixed;
   margin: 0 auto;
   text-align: center;
@@ -22,31 +22,27 @@ header {
     align-content: center;
     width: 100%;
     margin-top:10px ;
+    box-sizing: border-box;
 }
-
 header h1 {
   color: #273746;
   padding: 10px 0;
-  text-align: center;
   font-size: 40px;
-  box-sizing: border-box;
   font-family: 'Cormorant Upright', serif;
   text-emphasis-color: blue;
 }
-
 header p {
-  text-align: center;
   padding: 10px 0;
-  box-sizing: border-box;
   font-size: 20px;
   font-family: 'Aref Ruqaa', serif;
 }
 .main {
   margin-top: 30px;
-  width: 95%;
+  width: 100%;
   padding:20px 10px;
   background-color: rgba(128, 116, 85, 0.3);
   font-size: 20px;
+  box-sizing: border-box;
 }
 .contenedor p1 {
   display: block;
@@ -69,4 +65,5 @@ header p {
 #ButtonEncode, #ButtonDecode {
   display: inline-block;
   margin:1em 1em 1em 1em;
+  cursor: pointer;
 }
