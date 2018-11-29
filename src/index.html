@@ -4,21 +4,23 @@
       <meta charset="utf-8">
       <title>Caesar Cipher</title>
       <link rel="stylesheet" href="style.css" />
+      <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright|Fredoka+One|Josefin+Sans" rel="stylesheet">
       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     </head>
     <body>
       <div class="contenedor">
           <header>
-            <h1>RECETAS CONFIDENCIALES</h1>
-            <p>Ahora podras compartir tus recetas solo con quienes tu eligas.</p>
+            <h1>SECRET RECIPE</h1>
+            <h4>AHORA PODRÁS COMPARTIR TUS RECETAS SOLO CON QUIENES TU QUIERAS</h4>
           </header>
           <section class="main">
-            <p1>Ingresa tu Receta Secreta</p1>
+            <h4>Ingresa tu Receta Secreta:</h4>
             <textarea rows="3" cols="30" id="inpText"></textarea>
-            <p1>Coloca aquí tu clave</p1>
+            <h4>Coloca aquí tu clave:</h4>
             <input type="number" name="Offset" id="inpOffset">
-            <input type="button" name="Encode" value="CIFRAR RECETA" id="ButtonEncode">
-            <input type="button" name="Decode" value="DESCIFRAR RECETA" id="ButtonDecode">
+            <input type="button" name="Encode" id="ButtonEncode" value=" ">
+            <input type="button" name="Decode" id="ButtonDecode" value=" ">
+            <h4>Tu mensaje cifrado es:</h4>
             <textarea name="name" rows="3" cols="30" id="OutTextEncode"></textarea>
           </section>
       </div>

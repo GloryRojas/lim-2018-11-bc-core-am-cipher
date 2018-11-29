@@ -25,16 +25,17 @@ header {
     box-sizing: border-box;
 }
 header h1 {
-  color: #273746;
+  color: #095D61;
   padding: 10px 0;
-  font-size: 40px;
-  font-family: 'Cormorant Upright', serif;
+  font-size: 300%;
+  font-family: 'Fredoka One', cursive;
   text-emphasis-color: blue;
 }
-header p {
+header h4 {
   padding: 10px 0;
-  font-size: 20px;
-  font-family: 'Aref Ruqaa', serif;
+  font-size: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #0A784C;
 }
 .main {
   margin-top: 30px;
@@ -44,26 +45,42 @@ header p {
   font-size: 20px;
   box-sizing: border-box;
 }
-.contenedor p1 {
+.main h4 {
   display: block;
-  font-family: 'Acme';
+  font-family: 'Josefin Sans', sans-serif;
   margin-bottom: 10px;
   margin-top: 10px;
+  color: #0A784C;
 }
 #inpText, #OutTextEncode {
   width: 50%;
   display: block;
   margin:auto;
   padding: 7px;
+  border-radius: 10px;
 }
 #inpOffset{
   width: 30%;
   display: block;
   margin:auto;
   padding: 7px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 #ButtonEncode, #ButtonDecode {
   display: inline-block;
-  margin:1em 1em 1em 1em;
   cursor: pointer;
+  height:96px;
+  width:96px;
+  background-position:center;
+  border-radius: 10px;
+  border-color: #F4F008;
+  margin-bottom: 10px;
+}
+
+#ButtonEncode {
+  background-image: url(img/cifrarbut.jpg);
+}
+#ButtonDecode {
+  background-image: url(img/descifbut.jpg);
 }
