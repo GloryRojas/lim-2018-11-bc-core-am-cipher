@@ -11,46 +11,48 @@ body {
   text-align: center;
 }
 .contenedor {
-  width: 90%;
-  max-width: 1000px;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
 }
 header {
-    background-color: rgba(238, 203, 103, 0.5);
+    background-color: rgba(238, 203, 103, 0);
     background-attachment: fixed;
     align-content: center;
-    width: 100%;
+    width: 90%;
     margin-top:10px ;
+    margin-left: auto;
+    margin-right: auto;
     box-sizing: border-box;
 }
 header h1 {
-  color: #095D61;
+  color: #373F3F;
   padding: 10px 0;
   font-size: 300%;
   font-family: 'Fredoka One', cursive;
-  text-emphasis-color: blue;
-}
-header h4 {
+ }
+header h3 {
   padding: 10px 0;
-  font-size: 100%;
+  font-size: 120%;
   font-family: 'Josefin Sans', sans-serif;
-  color: #0A784C;
+  color: #373F3F;
 }
 .main {
   margin-top: 30px;
-  width: 100%;
+  width: 90%;
   padding:20px 10px;
-  background-color: rgba(128, 116, 85, 0.3);
+  background-color: rgba(128, 116, 85, 0);
   font-size: 20px;
   box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 .main h4 {
   display: block;
   font-family: 'Josefin Sans', sans-serif;
   margin-bottom: 10px;
   margin-top: 10px;
-  color: #0A784C;
+  color: #40362F;
 }
 #inpText, #OutTextEncode {
   width: 50%;
@@ -58,8 +60,9 @@ header h4 {
   margin:auto;
   padding: 7px;
   border-radius: 10px;
+  font-size: 15px;
 }
-#inpOffset{
+#inpOffset {
   width: 30%;
   display: block;
   margin:auto;

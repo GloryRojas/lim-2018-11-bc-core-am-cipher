@@ -1,6 +1,5 @@
-//Para Cifrado
+//Creamos una función vacia 
 const encButt = document.getElementById('ButtonEncode');
-
 const cifrAdo = () => {
   const textIng = document.getElementById('inpText').value;
   const ofssetIng = document.getElementById('inpOffset').value;
@@ -11,7 +10,6 @@ encButt.addEventListener('click' , cifrAdo)
 
 //Para descifrado
 const decButt = document.getElementById('ButtonDecode');
-
 const descifrAdo = () => {
   const textIng = document.getElementById('inpText').value;
   const ofssetIng = document.getElementById('inpOffset').value;
