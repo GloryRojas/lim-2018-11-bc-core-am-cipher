@@ -1,9 +1,9 @@
-//Creamos una función vacia 
+//Creamos una función vacia
 const encButt = document.getElementById('ButtonEncode');
 const cifrAdo = () => {
   const textIng = document.getElementById('inpText').value;
   const ofssetIng = document.getElementById('inpOffset').value;
-    const textcif = cipher.encode (textIng , ofssetIng);
+    const textcif = cipher.encode (ofssetIng,textIng);
   document.getElementById('OutTextEncode').innerHTML = textcif;
 }
 encButt.addEventListener('click' , cifrAdo)
@@ -13,7 +13,7 @@ const decButt = document.getElementById('ButtonDecode');
 const descifrAdo = () => {
   const textIng = document.getElementById('inpText').value;
   const ofssetIng = document.getElementById('inpOffset').value;
-    const textcif = cipher.decode (textIng , ofssetIng);
+    const textcif = cipher.decode (ofssetIng,textIng);
   document.getElementById('OutTextEncode').innerHTML = textcif;
 }
 decButt.addEventListener('click' , descifrAdo)
