@@ -1,74 +1,53 @@
 
 * {
-  margin: 0;
+  margin: auto;
   padding: 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  text-align: center;
+  box-sizing: border-box;
 }
 body {
-  background-image: url(img/Food.jpg);
+  background-image: url(img/fondo.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  margin: 0 auto;
   text-align: center;
-}
-.contenedor {
   width: 80%;
-  margin: 0 auto;
-  text-align: center;
 }
 header {
-    background-color: rgba(238, 203, 103, 0);
-    background-attachment: fixed;
-    align-content: center;
-    width: 90%;
-    margin-top:10px ;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
+    background-color: rgba(234, 237, 237, 0.8);
+    color: #373F3F;
+    padding: 8px;
 }
 header h1 {
-  color: #373F3F;
-  padding: 10px 0;
-  font-size: 300%;
+  font-size: 250%;
   font-family: 'Fredoka One', cursive;
  }
 header h3 {
-  padding: 10px 0;
-  font-size: 120%;
+  font-size: 100%;
   font-family: 'Josefin Sans', sans-serif;
-  color: #373F3F;
 }
-.main {
-  margin-top: 30px;
-  width: 90%;
+section {
   padding:20px 10px;
-  background-color: rgba(128, 116, 85, 0);
-  font-size: 20px;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: rgba(196, 221, 157, 0.8);
+  font-size: 120%;
 }
-.main h4 {
+section h4 {
   display: block;
   font-family: 'Josefin Sans', sans-serif;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  color: #40362F;
+  color: #2C0F0D;
 }
 #inpText, #OutTextEncode {
   width: 50%;
   display: block;
-  margin:auto;
   padding: 7px;
   border-radius: 10px;
-  font-size: 15px;
 }
 #inpOffset {
-  width: 30%;
+  width: 15%;
   display: block;
-  margin:auto;
   padding: 7px;
-  margin-bottom: 10px;
   border-radius: 10px;
 }
 #ButtonEncode, #ButtonDecode {
@@ -79,9 +58,7 @@ header h3 {
   background-position:center;
   border-radius: 10px;
   border-color: #F4F008;
-  margin-bottom: 10px;
 }
-
 #ButtonEncode {
   background-image: url(img/cifrarbut.jpg);
 }

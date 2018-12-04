@@ -1,14 +1,16 @@
 window.cipher = {
-//Creando la funcion encode
+//Creando la propiedad encode y una funcion con dos parametros que se pediran al usuario.
   encode : (Offset,string) => {
-    //Creamos una letiable que pase a mayusculas el texto ingresado.
       let string2 = string.toUpperCase();
-      let OutText = '';
+      let OutText = "";
+      //recorriendo al string
       for (let i = 0; i < string2.length; i++) {
-        if (string2[i] === ' '){
-          OutText += ' '
+        if (string2[i] === " "){
+          OutText += " "
         } else {
-          let AscciCode = ((string2.charCodeAt(i) - 65 + (Offset%26)) % 26 + 65);
+          //preguntar porque funciona con let y sin let *determinando la serie de codigos ascci
+          AscciCode = ((string2.charCodeAt(i) - 65 + (Offset%26)) % 26 + 65);
+          //de codigo ascci a letra
           OutText += String.fromCharCode(AscciCode);
           }
       }
@@ -17,12 +19,12 @@ window.cipher = {
 //Creando la funcion decode
  decode : (Offset,string) => {
       let string2 = string.toUpperCase();
-      let OutText = '';
+      let OutText = "";
       for (let i = 0; i < string2.length; i++) {
-        if (string2[i] === ' '){
-          OutText += ' '
+        if (string2[i] === " "){
+          OutText += " "
         } else {
-          let AscciCode = ((string2.charCodeAt(i) - 65 - (Offset%26)+26) % 26 + 65);
+          AscciCode = ((string2.charCodeAt(i) - 65 - (Offset%26)+26) % 26 + 65);
           OutText += String.fromCharCode(AscciCode);
         }
       }

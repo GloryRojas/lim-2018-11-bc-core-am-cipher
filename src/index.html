@@ -8,22 +8,20 @@
       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     </head>
     <body>
-      <div class="contenedor">
           <header>
-            <h1>SECRET RECIPE</h1>
-            <h3>Aqui codificaras tus recetas para que solo pueda ser leido con quienes eligas, envía el mensaje cifrado y la clave, que descubran la magia de tus postres!</h3>
+            <h1>"SECRET RECIPE"</h1>
+            <h3>Codifica tus recetas para que solo pueda ser leído con quienes eligas, que descubran tu magia!</h3>
           </header>
-          <section class="main">
+          <section>
             <h4>Ingresa tu Receta Secreta:</h4>
             <textarea rows="3" cols="30" id="inpText" placeholder="Suspiro a la Limeña"></textarea>
-            <h4>Coloca aquí  clave:</h4>
+            <h4>Coloca aquí la clave:</h4>
             <input type="number" name="Offset" id="inpOffset" placeholder="Números 1, 2, 3....">
             <input type="button" name="Encode" id="ButtonEncode" value=" ">
             <input type="button" name="Decode" id="ButtonDecode" value=" ">
             <h4>Tu mensaje cifrado es:</h4>
             <textarea name="name" rows="3" cols="30" id="OutTextEncode" placeholder="Compártelo junto a la clave"></textarea>
           </section>
-      </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
